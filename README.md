@@ -85,12 +85,47 @@ The model achieved an accuracy of approximately **74%** on the test set.
 
 ---
 
+## Results
+
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
+### Performance
+- Accuracy: 74%
+
+---
+
 ## Results Summary
 The model achieves solid baseline performance, demonstrating that BERT embeddings are effective for text classification tasks.  
 
 However, the results indicate that text-only features are not sufficient for capturing more complex patterns related to misinformation detection.  
 
 This highlights the importance of incorporating additional modalities such as images.
+
+---
+
+## How to Run
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/misinformation-detection-bert.git
+cd misinformation-detection-bert
+```
+
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. Launch Jupyter Notebook
+```bash
+jupyter notebook
+```
+
+4. Open and run the notebook
+```bash
+1-text-baseline-bert.ipynb
+```
 
 ---
 
